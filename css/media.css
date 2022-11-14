@@ -1,0 +1,25 @@
+/* Mobile */
+@media screen and (min-width: 0px) and (max-width: 480px){
+ 
+}
+/*Tablet Portrait*/
+@media screen and (min-width: 480px) and (max-width: 768px){
+ 
+}
+/*Tablet Landscape*/
+@media screen and (min-width:768px) and (max-width: 1024px){
+   
+}
+/* Laptop */
+@media screen and (min-width:1024px) and (max-width: 1600px){
+   
+}
+/* Desktop */
+@media screen and (min-width: 1600px){
+ 
+}
+/* 4k */
+@media screen and (min-width: 3840px){
+ 	html {font-size: 1.8rem};
+}
+

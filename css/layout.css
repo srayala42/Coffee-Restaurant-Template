@@ -1,0 +1,40 @@
+/* Main Layout */ 
+
+
+
+
+/* Header Navbar Layout */
+header {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+}
+nav ul {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+/* Hangout Section */ 
+#hangout-section {
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    column-gap: 2rem;
+}
+
+/* Guest Section */ 
+.guestgrid {
+    display: grid;
+    grid-template-columns: 5fr 7fr;  
+    column-gap: 4rem; 
+    margin: 0rem 10rem 1rem;
+} 
+
+.info-box {
+    display: flex; 
+    justify-content: start;
+} 
+.info {
+    margin-right: 3rem;
+}
+

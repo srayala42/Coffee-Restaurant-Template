@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/util.css">
+    <script src="https://kit.fontawesome.com/da24448f42.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Header NavBar-->
+    <header>
+        <a href="index.html"><img class="logo" src="https://wistaraworld.com/wp-content/themes/wistara/img/logo-wistara.png" alt=""></a>
+        <nav>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="">Menu</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Facility</a></li>
+                <li><a href="">Reviews</a></li>
+            </ul>
+        </nav> 
+        <p><a class="call" title="call" href="tel:(406) 555-0120"><i class="fa-solid fa-phone m-1"></i>(406) 555-0120</a></p>
+    </header>
+    <!--Main Content-->
+    <main> 
+            <!--Hangout Section-->
+        <section id="hangout-section">
+            <!--First Half-->
+            <div id="hangout-info"> 
+                <div>
+                <p class="wistara">WISTARA</p>
+                <h1 class="m-3">Hangout experience with great atmosphere</h1> 
+                <p class="hangout-p m-3">Boost your productivity and build your mood with a short break in the most comfortable place</p> 
+                <!--Button Link-->
+                <div id="reserve" class="m-3">
+                    <a href="https://www.opentable.com/" target="_blank" id="reservebtn"><button>Reservation</button></a>
+                    <a href="menu.html" id="menubtn"><span>See Our Menu</span><i class="fa-solid fa-arrow-up-right-from-square m-1"></i></a>
+                </div> 
+                </div>
+                <!--Coffee Logos-->
+                <div id="coffee-logos" class="m-6"> 
+                    <a href=""><img src="https://static1.squarespace.com/static/5b994c0e9f877027273bc99b/t/5bfc37354ae237e15d69c60e/1666033073501/" alt=""></a>
+                    <a href=""><img src="https://cdn.freebiesupply.com/logos/large/2x/kauai-coffee-logo-svg-vector.svg" alt=""></a>
+                    <a href=""><img src="https://cdn.freebiesupply.com/logos/large/2x/seattles-best-coffee-logo-svg-vector.svg" alt=""></a>
+                    <a href=""><img src="https://i.pinimg.com/474x/76/97/69/76976902ad3ee7ba835e44c80297c373.jpg" alt=""></a>                 
+                </div>
+            </div>
+            <!--Second Half-->
+                <a href="menu.html" target="_blank" title="CoffeeShakes"><img class="cofheadimg" src="images/coffee-1.jpg" alt=""></a>
+                <span class="new-variant">New Variant</span>
+        </section>
+        <!--Guest Infomation-->
+        <section id="guest-info"> 
+
+            <div class="guestgrid"> 
+            <img src="images/coffeeshop.jpg" alt=""> 
+            <div id="guest-side">
+                <p class="overview">Overview</p>
+                <h2 class="m-1-5 ">A Little Information For Our Guest</h2> 
+                <p class="m-1-5 ig">Here we attach brief data about our Wistara Coffee Space that will make it easier for our guests to get to know us better.</p> 
+                <div class="info-box m-1-5">
+                    <div class="info"><p><span>15</span><i class="fa-solid fa-plus"></i></p><p class="ig">Meeting Rooms</p></div>
+                    <div class="info"><p><span>100</span><i class="fa-solid fa-plus"></i></p><p class="ig">Of all Menus</p></div>
+                    <div class="info"><p><span>20</span><i class="fa-solid fa-plus"></i></p><p class="ig">Event Spaces</p></div>
+                </div>
+            </div>
+            </div>
+
+        </section> 
+
+        <!--Signature Menu-->
+        <section id="smenu" style="padding-bottom:30rem;">
+        </section>
+
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+    </main> 
+    <script>
+        // Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+    </script>
+</body>
+</html>
