@@ -99,7 +99,7 @@ nav ul li a:hover {
 #reservebtn button:hover {
     transform: scale(1.012);
 }
-#menubtn{
+#menubtn {
     margin: 1.2rem 2rem;
     color: white; 
     background-color: transparent; 
@@ -125,7 +125,7 @@ nav ul li a:hover {
 #coffee-logos img{
     float: left;
     width:  10rem;
-    height: 100px;
+    height: 10rem;
     object-fit: contain; 
     filter: grayscale(100%); 
     transition: ease-in 0.2s;
