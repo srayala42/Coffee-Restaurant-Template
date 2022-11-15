@@ -33,11 +33,13 @@
     width: 8rem;
     height: 8rem;
     position: absolute;
-    right: 45rem;
-    bottom: 12rem; 
+    right: 75%;
+    bottom: 10rem; 
     transform: rotate(16deg);
     } 
-
+    .ps{
+        position: relative;
+    }
     #myBtn {
         display: none; /* Hidden by default */
         position: fixed; /* Fixed/sticky position */
